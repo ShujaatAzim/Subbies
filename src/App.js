@@ -4,7 +4,8 @@ import { Button } from '@blueprintjs/core';
 const App = () => {
   return (
     <div>
-      <Button>Hello World!</Button>
+      <Button>Hello Caroline!</Button>
+      <button>New Button</button>
     </div>
   );
 }
