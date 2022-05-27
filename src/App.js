@@ -1,11 +1,18 @@
 import React from 'react';
-import NavBar from './Components/NavBar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
+import LoginPage from './Pages/LoginPage';
+import ProfilePage from './Pages/ProfilePage';
 
 const App = () => {
   return (
-    <div>
-      <button>Hello World!</button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
