@@ -1,11 +1,16 @@
 import React from 'react';
 import { Button } from '@blueprintjs/core';
+import NavBar from './Components/NavBar';
 
 const App = () => {
   return (
     <div>
-      <Button>Hello Caroline!</Button>
-      <button>New Button</button>
+      <div>
+        <NavBar />
+      </div>
+      <div>
+        <Button>Hello World!</Button>
+      </div>
     </div>
   );
 }
