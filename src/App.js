@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '@blueprintjs/core';
 import NavBar from './Components/NavBar';
 
 const App = () => {
@@ -9,7 +8,7 @@ const App = () => {
         <NavBar />
       </div>
       <div>
-        <Button>Hello World!</Button>
+        <button>Hello World!</button>
       </div>
     </div>
   );
