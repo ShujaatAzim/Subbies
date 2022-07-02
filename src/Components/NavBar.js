@@ -1,6 +1,7 @@
 import React from 'react';
 
 const NavBar = () => {
+  
   return (
     <nav>
       <button>Home</button>
