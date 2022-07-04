@@ -6,6 +6,7 @@ import NotFoundPage from './Pages/NotFoundPage';
 import ProfilePage from './Pages/ProfilePage';
 
 const App = () => {
+  
   return (
     <BrowserRouter>
       <Routes>
