@@ -4,7 +4,7 @@ const RegistrationForm = () => {
   
   return (
     <div>
-      <h1>Registration Form</h1>
+      <h2>Registration Form</h2>
       <form>
         <label>Username</label>
         <input type="text" placeholder="username" />
