@@ -6,9 +6,9 @@ const RegistrationForm = () => {
     <div>
       <h2>Registration Form</h2>
       <form>
-        <label>Username</label>
+        <label>Create Username</label>
         <input type="text" placeholder="username" />
-        <label>Password</label>
+        <label>Create Password</label>
         <input type="password" placeholder="password" />
         <button type="submit">Submit</button>
       </form>
