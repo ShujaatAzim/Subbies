@@ -4,12 +4,16 @@ import { useNavigate } from 'react-router-dom';
 const NavBar = () => {
 
   const navigate = useNavigate();
+
+  const handleLogout = () => {
+    console.log("logging out...")
+  }
   
   return (
     <nav>
       <button onClick={() => navigate("/")}>Home</button>
       <button onClick={() => navigate("/profile")}>Profile</button>
-      <button>Logout</button>
+      <button onClick={() => handleLogout()}>Logout</button>
     </nav>
   );
 }
