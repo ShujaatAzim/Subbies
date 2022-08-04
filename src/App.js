@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import NotFoundPage from './Pages/NotFoundPage';
@@ -9,6 +10,8 @@ import RegistrationPage from './Pages/RegistrationPage';
 const App = () => {
   
   return (
+    <>
+    <NavBar />
     <Routes>
       <Route exact path="/" element={<HomePage />} />
       <Route exact path="/login" element={<LoginPage />} />
@@ -16,6 +19,7 @@ const App = () => {
       <Route exact path="/registration" element={<RegistrationPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
+    </>
   );
 }
 
