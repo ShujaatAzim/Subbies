@@ -10,16 +10,20 @@ import RegistrationPage from './Pages/RegistrationPage';
 const App = () => {
   
   return (
-    <>
-    <NavBar />
-    <Routes>
-      <Route exact path="/" element={<HomePage />} />
-      <Route exact path="/login" element={<LoginPage />} />
-      <Route exact path="/profile" element={<ProfilePage />} />
-      <Route exact path="/registration" element={<RegistrationPage />} />
-      <Route path="*" element={<NotFoundPage />} />
-    </Routes>
-    </>
+    <div>
+      <div>
+        <NavBar />
+      </div>
+      <div>
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/login" element={<LoginPage />} />
+          <Route exact path="/profile" element={<ProfilePage />} />
+          <Route exact path="/registration" element={<RegistrationPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </div>
+    </div>
   );
 }
 
